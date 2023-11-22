@@ -1,13 +1,18 @@
 namespace InterfaceSegregation
 {
-    public class Tester : IWorkTeamActivities,ITestActivities
+    public class Arquitect : IActivities
     {
-        public Tester()
+        public void Comunicate()
         {
-            
+            throw new NotImplementedException();
         }
 
-        public void Comunicate()
+        public void Design()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Develop()
         {
             throw new NotImplementedException();
         }
